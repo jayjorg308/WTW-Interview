@@ -1,0 +1,1 @@
+SELECT email FROM Employee GROUP BY email HAVING Count(*) > 1
