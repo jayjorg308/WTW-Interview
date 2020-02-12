@@ -7,11 +7,7 @@ VALUES
     ('Campsite Number 1'),
     ('Campsite Number 2'),
     ('Campsite Number 3'),
-    ('Campsite Number 4'),
-    ('Campsite Number 5'),
-    ('Campsite Number 6'),
-    ('Campsite Number 7'),
-    ('Campsite Number 8');
+    ('Campsite Number 4');
     
 -- Create Reservation Table    
 CREATE TABLE Reservation(
@@ -26,12 +22,32 @@ VALUES
     (2, '2020-03-08'),
     (3, '2020-03-08'),
     (4, '2020-04-15'),
-    (5, '2020-04-18'),
-    (6, '2020-05-14'),
-    (7, '2020-05-15'),
-    (8, '2020-05-15'),
+    (1, '2020-04-18'),
+    (2, '2020-05-14'),
+    (3, '2020-05-15'),
+    (4, '2020-05-15'),
     (1, '2020-06-08'),
     (2, '2020-07-09');
+    
+-- Create Availability Table    
+CREATE TABLE Availability(
+  id int NOT NULL IDENTITY(1,1) PRIMARY KEY, 
+  campsiteId int NOT NULL FOREIGN KEY REFERENCES Campsite(id),
+  [date] date);
+
+-- Populate Availability Table
+INSERT INTO Availability(campsiteId, [date])
+VALUES
+    (1, '2020-03-13'),
+    (2, '2020-03-18'),
+    (3, '2020-03-28'),
+    (4, '2020-04-17'),
+    (1, '2020-04-23'),
+    (2, '2020-05-28'),
+    (3, '2020-05-29'),
+    (4, '2020-05-30'),
+    (1, '2020-06-17'),
+    (2, '2020-07-13');    
     
 -- Add Reservation Stored Procedure
 CREATE PROCEDURE AddReservation @CampsiteId int, @ReservationDate date
@@ -43,6 +59,17 @@ VALUES(@CampsiteId, @ReservationDate);
 CREATE PROCEDURE CancelReservation @ReservationId int
 AS
 DELETE FROM Reservation WHERE id = @ReservationId;
+
+-- Create Campsite Availability View
+CREATE VIEW [Campsite Availability]
+AS
+SELECT c.name as [Campsite Name], a.date [Available Date]
+FROM Availability a
+INNER JOIN Campsite c
+ON a.campsiteId = c.id;
+
+-- Select Campsite Availability View
+SELECT * FROM [Campsite Availability];
 
 -- Most Popular Day Function
 CREATE FUNCTION getMostPopularDay()
