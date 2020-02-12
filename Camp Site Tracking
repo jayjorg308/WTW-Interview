@@ -1,0 +1,33 @@
+-- Create Campsite Table
+CREATE TABLE Campsite(id int NOT NULL PRIMARY KEY, name varchar(200));
+
+-- Populate Campsite Table
+INSERT INTO Campsite(id, name)
+VALUES
+    (1, 'Campsite Number One'),
+    (2, 'Campsite Number Two');
+    
+-- Create Reservation Table    
+CREATE TABLE Reservation(
+  id int NOT NULL PRIMARY KEY, 
+  campsiteId int NOT NULL FOREIGN KEY REFERENCES Campsite(id),
+  checkIn date,
+  checkOut date);
+
+-- Populate Reservation Table
+INSERT INTO Reservation(id, campsiteId, checkIn, checkOut)
+VALUES
+    (1, 1, '2020-03-08', '2020-03-12'),
+    (2, 1, '2020-04-12', '2020-04-13'),
+    (3, 2, '2020-04-15', '2020-04-18');
+    
+-- Add Reservation Stored Procedure
+CREATE PROCEDURE AddReservation @CampsiteId int, @CheckInDate date, @CheckOutDate date
+AS
+INSERT INTO Reservation(id, campsiteId, checkIn, checkOut)
+VALUES(100, @CampsiteId, @CheckInDate, @CheckOutDate);
+
+-- Cancel Reservation Stored Procedure
+CREATE PROCEDURE CancelReservation @ReservationId int
+AS
+DELETE FROM Reservation WHERE id = @ReservationId;    
