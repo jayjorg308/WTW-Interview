@@ -6873,11 +6873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email-Test\\WTW-Email-Test.csproj",
+      "projectUniqueName": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email-Test\\WTW-Email-Test.csproj",
       "projectName": "WTW-Email-Test",
-      "projectPath": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email-Test\\WTW-Email-Test.csproj",
+      "projectPath": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email-Test\\WTW-Email-Test.csproj",
       "packagesPath": "C:\\Users\\Dustin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email-Test\\obj\\",
+      "outputPath": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email-Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6899,8 +6899,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email\\WTW-Email.csproj": {
-              "projectPath": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email\\WTW-Email.csproj"
+            "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email\\WTW-Email.csproj": {
+              "projectPath": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email\\WTW-Email.csproj"
             }
           }
         }

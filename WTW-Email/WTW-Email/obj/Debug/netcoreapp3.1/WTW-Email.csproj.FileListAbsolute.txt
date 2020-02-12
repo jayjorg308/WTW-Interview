@@ -9,3 +9,14 @@ C:\Users\Dustin\source\repos\WTW-Interview2\WTW-Email\WTW-Email\obj\Debug\netcor
 C:\Users\Dustin\source\repos\WTW-Interview2\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.AssemblyInfo.cs
 C:\Users\Dustin\source\repos\WTW-Interview2\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.dll
 C:\Users\Dustin\source\repos\WTW-Interview2\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.pdb
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\bin\Debug\netcoreapp3.1\WTW-Email.exe
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\bin\Debug\netcoreapp3.1\WTW-Email.deps.json
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\bin\Debug\netcoreapp3.1\WTW-Email.runtimeconfig.json
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\bin\Debug\netcoreapp3.1\WTW-Email.runtimeconfig.dev.json
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\bin\Debug\netcoreapp3.1\WTW-Email.dll
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\bin\Debug\netcoreapp3.1\WTW-Email.pdb
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.csprojAssemblyReference.cache
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.AssemblyInfoInputs.cache
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.AssemblyInfo.cs
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.dll
+C:\Users\Dustin\Source\Repos\WTW-Interview\WTW-Email\WTW-Email\obj\Debug\netcoreapp3.1\WTW-Email.pdb

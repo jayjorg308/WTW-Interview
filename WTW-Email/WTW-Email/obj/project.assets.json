@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email\\WTW-Email.csproj",
+      "projectUniqueName": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email\\WTW-Email.csproj",
       "projectName": "WTW-Email",
-      "projectPath": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email\\WTW-Email.csproj",
+      "projectPath": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email\\WTW-Email.csproj",
       "packagesPath": "C:\\Users\\Dustin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dustin\\source\\repos\\WTW-Interview2\\WTW-Email\\WTW-Email\\obj\\",
+      "outputPath": "C:\\Users\\Dustin\\Source\\Repos\\WTW-Interview\\WTW-Email\\WTW-Email\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

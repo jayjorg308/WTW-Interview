@@ -1,0 +1,11 @@
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\bin\Debug\netcoreapp3.1\WTW-TicTacToe.exe
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\bin\Debug\netcoreapp3.1\WTW-TicTacToe.deps.json
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\bin\Debug\netcoreapp3.1\WTW-TicTacToe.runtimeconfig.json
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\bin\Debug\netcoreapp3.1\WTW-TicTacToe.runtimeconfig.dev.json
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\bin\Debug\netcoreapp3.1\WTW-TicTacToe.dll
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\bin\Debug\netcoreapp3.1\WTW-TicTacToe.pdb
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\obj\Debug\netcoreapp3.1\WTW-TicTacToe.csprojAssemblyReference.cache
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\obj\Debug\netcoreapp3.1\WTW-TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\obj\Debug\netcoreapp3.1\WTW-TicTacToe.AssemblyInfo.cs
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\obj\Debug\netcoreapp3.1\WTW-TicTacToe.dll
+C:\Users\Dustin\source\repos\WTW-Interview\WTW-TicTacToe\WTW-TicTacToe\obj\Debug\netcoreapp3.1\WTW-TicTacToe.pdb
